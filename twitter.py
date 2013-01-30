@@ -63,7 +63,7 @@ except ImportError:
 import oauth2 as oauth
 
 
-CHARACTER_LIMIT = 140
+CHARACTER_LIMIT = 254 
 
 # A singleton representing a lazily instantiated FileCache.
 DEFAULT_CACHE = object()
